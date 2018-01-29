@@ -1,0 +1,25 @@
+从来没有用过C++写过tcp的东西，记录一下
+
+服务端
+socket
+bind
+listen
+accept
+recv
+send
+
+
+客户端
+socket
+connect
+send
+recv
+
+
+complie file：
+g++  -o server.exe server.cpp
+./server.exe
+
+new cmd:
+g++ -o client.exe client.cpp
+./client.exe
